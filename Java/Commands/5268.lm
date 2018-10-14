@@ -1,0 +1,161 @@
+Language model created by QuickLM on Sun Sep 24 19:35:49 EDT 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 34 sentences and 36 words
+
+\data\
+ngram 1=36
+ngram 2=68
+ngram 3=34
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-2.3096 AIVA -0.2218
+-2.3096 ALL -0.2218
+-2.3096 AM -0.2218
+-2.3096 BROWSER -0.2218
+-2.3096 CARS -0.2218
+-2.3096 CHROME -0.2218
+-2.3096 CLOSE -0.2218
+-2.3096 COMMAND -0.2218
+-2.3096 CRAIG -0.2218
+-2.3096 END -0.2218
+-2.3096 EXIT -0.2218
+-2.3096 EXPLORER -0.2218
+-2.3096 FILE -0.2218
+-2.3096 FILES -0.2218
+-2.3096 GOOGLE -0.2218
+-2.3096 HELLO -0.2218
+-2.3096 HEY -0.2218
+-2.3096 HI -0.2218
+-2.3096 I -0.2218
+-2.3096 IN -0.2218
+-2.3096 MY -0.2218
+-2.3096 NEVERMIND -0.2218
+-2.3096 ON -0.2218
+-2.3096 OPEN -0.2218
+-2.3096 PROMPT -0.2218
+-2.3096 PULL -0.2218
+-2.3096 PUPPIES -0.2218
+-2.3096 SEARCH -0.2218
+-2.3096 TERMINAL -0.2218
+-2.3096 TERMINATE -0.2218
+-2.3096 TEST -0.2218
+-2.3096 THE -0.2218
+-2.3096 UP -0.2218
+-2.3096 WHO -0.2218
+
+\2-grams:
+-1.8325 <s> AIVA 0.0000
+-1.8325 <s> ALL 0.0000
+-1.8325 <s> AM 0.0000
+-1.8325 <s> BROWSER 0.0000
+-1.8325 <s> CARS 0.0000
+-1.8325 <s> CHROME 0.0000
+-1.8325 <s> CLOSE 0.0000
+-1.8325 <s> COMMAND 0.0000
+-1.8325 <s> CRAIG 0.0000
+-1.8325 <s> END 0.0000
+-1.8325 <s> EXIT 0.0000
+-1.8325 <s> EXPLORER 0.0000
+-1.8325 <s> FILE 0.0000
+-1.8325 <s> FILES 0.0000
+-1.8325 <s> GOOGLE 0.0000
+-1.8325 <s> HELLO 0.0000
+-1.8325 <s> HEY 0.0000
+-1.8325 <s> HI 0.0000
+-1.8325 <s> I 0.0000
+-1.8325 <s> IN 0.0000
+-1.8325 <s> MY 0.0000
+-1.8325 <s> NEVERMIND 0.0000
+-1.8325 <s> ON 0.0000
+-1.8325 <s> OPEN 0.0000
+-1.8325 <s> PROMPT 0.0000
+-1.8325 <s> PULL 0.0000
+-1.8325 <s> PUPPIES 0.0000
+-1.8325 <s> SEARCH 0.0000
+-1.8325 <s> TERMINAL 0.0000
+-1.8325 <s> TERMINATE 0.0000
+-1.8325 <s> TEST 0.0000
+-1.8325 <s> THE 0.0000
+-1.8325 <s> UP 0.0000
+-1.8325 <s> WHO 0.0000
+-0.3010 AIVA </s> -0.3010
+-0.3010 ALL </s> -0.3010
+-0.3010 AM </s> -0.3010
+-0.3010 BROWSER </s> -0.3010
+-0.3010 CARS </s> -0.3010
+-0.3010 CHROME </s> -0.3010
+-0.3010 CLOSE </s> -0.3010
+-0.3010 COMMAND </s> -0.3010
+-0.3010 CRAIG </s> -0.3010
+-0.3010 END </s> -0.3010
+-0.3010 EXIT </s> -0.3010
+-0.3010 EXPLORER </s> -0.3010
+-0.3010 FILE </s> -0.3010
+-0.3010 FILES </s> -0.3010
+-0.3010 GOOGLE </s> -0.3010
+-0.3010 HELLO </s> -0.3010
+-0.3010 HEY </s> -0.3010
+-0.3010 HI </s> -0.3010
+-0.3010 I </s> -0.3010
+-0.3010 IN </s> -0.3010
+-0.3010 MY </s> -0.3010
+-0.3010 NEVERMIND </s> -0.3010
+-0.3010 ON </s> -0.3010
+-0.3010 OPEN </s> -0.3010
+-0.3010 PROMPT </s> -0.3010
+-0.3010 PULL </s> -0.3010
+-0.3010 PUPPIES </s> -0.3010
+-0.3010 SEARCH </s> -0.3010
+-0.3010 TERMINAL </s> -0.3010
+-0.3010 TERMINATE </s> -0.3010
+-0.3010 TEST </s> -0.3010
+-0.3010 THE </s> -0.3010
+-0.3010 UP </s> -0.3010
+-0.3010 WHO </s> -0.3010
+
+\3-grams:
+-0.3010 <s> AIVA </s>
+-0.3010 <s> ALL </s>
+-0.3010 <s> AM </s>
+-0.3010 <s> BROWSER </s>
+-0.3010 <s> CARS </s>
+-0.3010 <s> CHROME </s>
+-0.3010 <s> CLOSE </s>
+-0.3010 <s> COMMAND </s>
+-0.3010 <s> CRAIG </s>
+-0.3010 <s> END </s>
+-0.3010 <s> EXIT </s>
+-0.3010 <s> EXPLORER </s>
+-0.3010 <s> FILE </s>
+-0.3010 <s> FILES </s>
+-0.3010 <s> GOOGLE </s>
+-0.3010 <s> HELLO </s>
+-0.3010 <s> HEY </s>
+-0.3010 <s> HI </s>
+-0.3010 <s> I </s>
+-0.3010 <s> IN </s>
+-0.3010 <s> MY </s>
+-0.3010 <s> NEVERMIND </s>
+-0.3010 <s> ON </s>
+-0.3010 <s> OPEN </s>
+-0.3010 <s> PROMPT </s>
+-0.3010 <s> PULL </s>
+-0.3010 <s> PUPPIES </s>
+-0.3010 <s> SEARCH </s>
+-0.3010 <s> TERMINAL </s>
+-0.3010 <s> TERMINATE </s>
+-0.3010 <s> TEST </s>
+-0.3010 <s> THE </s>
+-0.3010 <s> UP </s>
+-0.3010 <s> WHO </s>
+
+\end\
