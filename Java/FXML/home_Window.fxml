@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- package FXML -->
+
+<!-- javafx libraries -->
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!-- window -->
+<AnchorPane maxWidth="-Infinity" maxHeight="-Infinity" minWidth="-Infinity" minHeight="-Infinity" prefWidth="400.0"
+            prefHeight="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com//fxml"
+            fx:controller="Controllers.home_Controller">
+
+    <!-- menu contents -->
+    <MenuBar prefHeight="25.0" prefWidth="400.0" layoutY="2.0">
+        <Menu text="File" mnemonicParsing="false"> <!-- File menu -->
+
+            <MenuItem text="User..." onAction="#handleFileUser" />
+            <SeparatorMenuItem/>
+            <!--
+            <MenuItem text="Settings..." onAction="#handleFileSettings" disable="true" />
+            <SeparatorMenuItem/>
+            <MenuItem text="CMD Prompt" onAction="#handleFileCMD" />
+            -->
+            <CheckMenuItem fx:id="rememberItem" text="Remember" onAction="#handleFileRemember" />
+            <!--
+            <SeparatorMenuItem/>
+            <MenuItem text="Exit" onAction="#handleFileExit" />
+            -->
+
+        </Menu>
+        <Menu text="Edit" mnemonicParsing="false"> <!-- Edit menu -->
+
+            <MenuItem text="Calibrate" onAction="#handleEditCalibrate" />
+            <!--
+            <SeparatorMenuItem/>
+            <MenuItem text="Preferences..." onAction="#handleEditPreferences" disable="true" />
+            <MenuItem text="Personalize..." onAction="#handleEditPersonalize" disable="true" />
+            <SeparatorMenuItem/>
+            <MenuItem text="Layout..." onAction="#handleEditLayout" disable="true" />
+            -->
+
+        </Menu>
+        <Menu text="View" mnemonicParsing="false"> <!-- View menu -->
+
+            <Menu text="Theme" mnemonicParsing="false">
+
+                <fx:define>
+                    <ToggleGroup fx:id="themeGroup" />
+                </fx:define>
+
+                <RadioMenuItem fx:id="lightTheme" text="Light" toggleGroup="$themeGroup"
+                               onAction="#handleViewThemeLight" />
+                <RadioMenuItem fx:id="darkTheme" text="Dark" toggleGroup="$themeGroup"
+                               onAction="#handleViewThemeDark" selected="true" />
+                <!--
+                <SeparatorMenuItem/>
+                <MenuItem text="Add" onAction="#handleViewThemeAdd" disable="true" />
+                -->
+
+            </Menu>
+            <!--
+            <SeparatorMenuItem/>
+            <MenuItem text="Tools" onAction="#handleViewTools" disable="true" />
+            <MenuItem text="Contacts" onAction="#handleViewContacts" disable="true" />
+            <SeparatorMenuItem/>
+            <MenuItem text="Logs" onAction="#handleViewLogs" disable="true" />
+            -->
+
+        </Menu>
+    </MenuBar>
+
+    <!-- help menu contents -->
+    <MenuBar prefHeight="25.0" prefWidth="400.0" layoutX="150.0" layoutY="2.0">
+        <Menu text="Help" mnemonicParsing="false">
+
+            <!--
+            <MenuItem text="Find" onAction="#handleHelpFind" disable="true" />
+            -->
+            <MenuItem text="Commands" onAction="#handleHelpCommands" />
+            <SeparatorMenuItem/>
+            <MenuItem text="About" onAction="#handleHelpAbout" />
+
+        </Menu>
+    </MenuBar>
+
+    <!-- window contents -->
+    <TextField fx:id="searchBar" promptText="search..." layoutX="2.0" layoutY="30.0" />
+    <Button fx:id="searchButton" text="Search" layoutX="154.0" layoutY="30.0" onAction="#handleSearchButton"
+            defaultButton="true" />
+
+</AnchorPane>

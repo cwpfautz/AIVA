@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- package FXML -->
+
+<!-- javafx libraries -->
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!-- window -->
+<AnchorPane maxWidth="-Infinity" maxHeight="-Infinity" minWidth="-Infinity" minHeight="-Infinity" prefWidth="400.0"
+            prefHeight="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com//fxml"
+            fx:controller="Controllers.settings_Controller">
+
+    <!-- window content -->
+    <TreeView fx:id="settingsTree" prefWidth="226" prefHeight="232.0" />
+
+</AnchorPane>
