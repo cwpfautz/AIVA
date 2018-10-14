@@ -1,0 +1,43 @@
+.root {
+    -fx-background-color: #000000;
+}
+
+#incorrect {
+    -fx-text-fill: #b22222;
+    -fx-font-weight: bold;
+}
+
+.menu-bar {
+    -fx-background-color: #000000;
+}
+
+.menu-bar .label {
+    -fx-text-fill: #b22222;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: #f0f8ff;
+    -fx-font-weight: bold;
+}
+
+#title {
+    -fx-text-fill: #b22222;
+    -fx-font-size: 500%;
+    -fx-font-family: Impact;
+}
+
+.button {
+    -fx-background-color: #b22222;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+}
+
+.check-box {
+    -fx-text-fill: #f0f8ff;
+    -fx-font-weight: bold;
+}
+
+.tree-view {
+    -fx-background-color: #000000;
+}

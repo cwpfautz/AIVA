@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color: dodgerblue;
+}
+
+#incorrect {
+    -fx-text-fill: #b22222;
+    -fx-font-weight: bold;
+}
+
+.menu-bar {
+    -fx-background-color: dodgerblue;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.menu-item .label {
+
+    -fx-text-fill: dodgerblue;
+}
+
+.button {
+    -fx-background-color: white;
+    -fx-text-fill: dodgerblue;
+    -fx-font-weight: bold;
+}
+
+.check-box {
+    -fx-text-fill: dodgerblue;
+    -fx-font-weight: bold;
+}
+
+.tree-view {
+    -fx-background-color: #000000;
+}
